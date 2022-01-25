@@ -1,0 +1,164 @@
+  
+
+/* reset
+--------------------------------------------------*/
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* general
+--------------------------------------------------*/
+
+/* link */
+a {
+	color: black;
+	outline: none;
+	text-decoration: none;
+	transition: all 0.1s linear;
+}
+
+/* clearfix */
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.header_icon{
+    width:140px;
+    top: 17px;
+    left: 17px;
+    position: fixed;
+	padding: 0;
+    margin: 0;
+    z-index: 904;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid rgb(212, 212, 212);
+    background-color: white;
+    z-index: 903;
+	padding: 0;
+	margin: 0;
+}
+
+.title{
+	text-align: center;
+	width: 240px;
+	margin: 0 auto;
+	padding: 50px 0 10px;
+}
+
+.mokuji{
+	width: 90%;
+	height: 85px;
+	margin: 20px auto 10px;
+	padding: 0;
+	text-align: center;
+}
+
+#grade{
+	width: 20%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+#grade p{
+	width: 9vw;
+	height: 9vw;
+	margin: 5px auto 5px;
+	padding: 0;
+	border-radius: 4.5vw;
+}
+
+#grade h2{
+	text-align: center;
+	font-size: 14px;
+	padding: 3px 0; 
+	margin:  0 auto ;
+	font-family:'Noto Sans JP',sans-serif;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+}
+
+.kouiti{ 
+	background-color: #F1EF64;
+}
+
+.kouni{
+	background-color: #FF6B60;
+}
+
+.kousan{
+	background-color: #185F8D;
+}
+
+.buten{
+	background-color: #8CB5D8;
+}
+
+.signage{
+	text-align: center;
+	width: 90%;
+	margin: 0 5%;
+	padding: 60px 0 0;
+}
+
+#hr{
+	width: 85%;
+	margin: 35px auto;
+	padding:0;
+	font-family: 'Noto Sans JP', sans-serif;
+	position: relative;
+}
+
+#hr img{
+	width: 100%;
+}
+
+#hr h2{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 100%;
+	letter-spacing: 0.095em;
+	padding: 0;
+	margin: 0;
+}
+
+#hr h1{
+	position: absolute;
+	top: 38px;
+	left: 15px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 100%;
+	letter-spacing: 0.095em;
+	padding: 0;
+	margin: 0;
+}
+
+#hr h3{
+	position: absolute;
+	bottom: 22px;
+	right: 16px;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 100%;
+	letter-spacing: 0.095em;
+	padding: 0;
+	margin: 0;
+}
