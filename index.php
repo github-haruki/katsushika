@@ -41,7 +41,19 @@ $c26 = get_count('26');
 </head>
 <body>
     <div class="header">
+		<div class="justbackground"></div>
         <a href=""><img class="header_icon" src="logo.svg" alt="sai3 icon"></a>
+		<div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            <nav class="hamburger_list">
+                <a href="index.html"><h1 class="header_home">HOME</h1></a>
+                <a href="index.html#contents_link"><h1 class="header_contents">CONTENTS</h1></a>
+                <a href="articles.html"><h1 class="header_articles">ARTICLES</h1></a>
+                <a href="about.html"><h1 class="header_about">ABOUT</h1></a>
+            </div>
     </div>
 	
     <div class="signage">
@@ -135,6 +147,18 @@ $c26 = get_count('26');
 
 	window.onload = classify();
 	</script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $('.hamburger').click(function() {
+                $(this).toggleClass('active');
+                if ($(this).hasClass('active')) {
+                    $('.hamburger_list').addClass('active');
+                } else {
+                    $('.hamburger_list').removeClass('active');
+                }
+            });
+        });   
+    </script>
 </body>
-
 </html>
