@@ -4,50 +4,141 @@ a {
 	transition: all 0.1s linear;
 }
 
-.title h1{
-	font-family:"Century Gothic";
+.header h1{
+	font-size: 3vh;
+	text-align: left !important;
+	font-weight: lighter;
+	color: white;
+	margin-top: 0px;
+	margin-bottom:0px;
+	margin-left: 3vh;
+	vertical-align: middle;
+}
+
+.header{
+	font-family: 'Noto Sans JP', sans-serif;
+	height: 6vh;
+	width: 100vw;
+	background-color: rgb(47, 185, 174);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
 }
 
 body{
 	text-align: center;
 	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	height: 95vh;
+	width: 100vw;
 }
 
 .submittion{
+	font-family: 'M PLUS 1p', sans-serif;
 	text-align:center;
 	width: 90%;
 	margin-left:5%;
-	box-shadow: 0 0 4px #002918;
-	height: 260px;	
+	height: 80vh;	
+	background-color: white;
 }
 
 .pulldown{
-	width: 80px;
+	font-size:18px;
+	width: 120px;
 	padding: 8px 8px;
 	border: none;
-	border-radius: 10px;
-	background-color: #f1f1f1;
+	background-color: white;
 	outline: 0;
+	-webkit-appearance: none;
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: 1px black solid;
+	border-style: solid;
+	background-image: url(../files/down-arrow.png);
+  	background-position: right 10px center;
+  	background-repeat: no-repeat;
+  	background-size: 15px 15px;
+	overflow: hidden;
+}
+
+.pulldown:focus{
+	border: 2px solid #5EFCE8;
+	border-image: linear-gradient(to right, #5EFCE8 0%, #736EFE 100%) ; /*ちゃんと動いてるやつ*/
+  	border-image-slice: 1;
+	border-style: solid;
+	background-image: url(../files/up-arrow.png);
+  	background-position: right 10px center;
+  	background-repeat: no-repeat;
+  	background-size: 15px 15px;
 	-webkit-appearance: none;
 }
 
-.statusInput{
-	width: 80px;
-	padding: 8px 8px;
-	border: none;
-	border-radius: 10px;
-	background-color: #f1f1f1;
+.min input[type=number]{
+	padding: 5px 5px;
+	box-sizing:border-box;
+	padding: 8px;
+	font-size:18px;
+	width: 170px;
 	outline: 0;
+	margin-bottom:15px;
+	background-color: white;
 	-webkit-appearance: none;
-	text-align: center;
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: 1px black solid;
 }
 
-.button{
-	border-radius: 15px;
-	background-color: #2041acce;
-	border: none;
+.min input[type=number]:focus{
+	border: 2px solid #5EFCE8;
+	border-image: linear-gradient(to right, #5EFCE8 0%, #736EFE 100%) ; /*ちゃんと動いてるやつ*/
+  	border-image-slice: 1;
+	border-style: solid;
+}
+
+
+
+.button {
+	letter-spacing: 1px;
+	margin: 0 auto;
+	padding: 2px;
+	position: relative;
+  	text-decoration: none;
+	width: 100px;
+  	height: 40px;
+  	border: double 1px transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(white, white), 
+	linear-gradient(to right, #5EFCE8 0%, #736EFE 100%);;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	color: black;
+	transition: background .5s ease;
+	
+}
+
+.button:hover {
+	background-image:linear-gradient(to right, #5EFCE8 0%, #736EFE 100%);
+} 
+
+.button span {
+	align-items: center;
+	background: #ffffff;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	transition: background .5s ease;
+	width: 100%;
+	font-size: 20px;
+	color: #736EFE;
+}
+
+.button:hover span {
+	background: transparent;
 	color: white;
-	padding: 5px 15px;
-	text-decoration: none;
-	-webkit-appearance: none;
 }
