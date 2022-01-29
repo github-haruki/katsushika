@@ -36,8 +36,8 @@ $c26 = get_count('26');
 	<link rel="stylesheet" href="mobile.css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Noto+Sans+JP:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
@@ -57,13 +57,14 @@ $c26 = get_count('26');
     </div>
 	
     <div class="signage">
-		<img src="file\title.svg" alt="" class="title">
+		<img src="file\title.svg" id="top" alt="" class="title">
 		<div class="mokuji">
-                <div id="grade"><a href="#kouichi"><p class="kouiti"></p></a><h2>高１</h2></div>
-                <div id="grade"><p class="kouni"></p><h2>高２</h2></div>
-                <div id="grade"><p class="kousan"></p><h2>高３</h2></div>
-                <div id="grade"><p class="buten"></p><h2>部展</h2></div>
-            </div>
+            <div id="grade"><a href="#kouichi"><p class="kouiti"></p></a><h2>高１</h2></div>
+            <div id="grade"><p class="kouni"></p><h2>高２</h2></div>
+            <div id="grade"><p class="kousan"></p><h2>高３</h2></div>
+            <div id="grade"><p class="buten"></p><h2>部展</h2></div>
+        </div>
+        <a href=""><img src="file\reload.png" class="reload" alt=""></a>
         <div id="hr">
             <img src="file\11.png" alt="">
             <h2>11HR</h2>
@@ -89,6 +90,7 @@ $c26 = get_count('26');
             <h3><?php echo $c14 ?>分</h3>
         </div>
     </div>
+    <a href="#top"><img src="file\backtop.png" class="backtop" alt=""></a>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script>
         $(function() {

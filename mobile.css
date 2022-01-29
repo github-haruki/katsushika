@@ -1,3 +1,5 @@
+html{scroll-behavior: smooth;}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -148,8 +150,8 @@ nav.hamburger_list a{
 
 .mokuji{
 	width: 90%;
-	height: 85px;
-	margin: 20px auto 10px;
+	height: 80px;
+	margin: 20px auto 0px;
 	padding: 0;
 	text-align: center;
 }
@@ -194,6 +196,14 @@ nav.hamburger_list a{
 
 .buten{
 	background-color: #8CB5D8;
+}
+
+.reload{
+	padding-right: 5vw;
+	padding-bottom: 10px;
+	width: 30px;
+	height: 30px;
+	float: right;
 }
 
 .signage{
@@ -247,9 +257,17 @@ nav.hamburger_list a{
 	right: 16px;
 	color: white;
 	font-size: 54px;
-	font-weight: bold;
+	font-weight: normal;
 	line-height: 100%;
-	letter-spacing: 0.095em;
+	letter-spacing: 1px;
 	padding: 0;
 	margin: 0;
+}
+
+.backtop{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
 }
