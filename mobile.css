@@ -266,8 +266,8 @@ nav.hamburger_list a{
 
 .backtop{
 	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	width: 40px;
-	height: 40px;
+	bottom: 5vw;
+	right: 5vw;
+	width: 13.3vw;
+	height: 13.3vw;
 }
