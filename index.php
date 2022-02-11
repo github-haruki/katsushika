@@ -36,8 +36,8 @@ $c26 = get_count('26');
 	<link rel="stylesheet" href="mobile.css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
@@ -50,9 +50,9 @@ $c26 = get_count('26');
               </div>
             <nav class="hamburger_list">
                 <a href="index.html"><h1 class="header_home">HOME</h1></a>
-                <a href="index.html#contents_link"><h1 class="header_contents">CONTENTS</h1></a>
-                <a href="articles.html"><h1 class="header_articles">ARTICLES</h1></a>
-                <a href="about.html"><h1 class="header_about">ABOUT</h1></a>
+                <a href="tenji.html"><h1 class="header_contents">DETAIL</h1></a>
+                <a href="articles.html"><h1 class="header_articles">UPCOMING</h1></a>
+                <a href="map.html"><h1 class="header_about">MAP</h1></a>
             </div>
     </div>
 	
